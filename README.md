@@ -195,16 +195,4 @@ This ensures the user is aware of detections even when they aren't looking at th
 
 ---
 
-## Team & Guidance
 
-**Mini Project — Visvesvaraya Technological University, Belagavi (2025–2026)**
-J N N College of Engineering, Shivamogga — Department of Electronics & Communication Engineering
-
-| USN | Name |
-|---|---|
-| 4JN23EC061 | Prajwal S |
-| 4JN23EC047 | Manojkumar N K |
-| 4JN23EC045 | Lekhan B G |
-| 4JN23EC034 | Jayachandran G |
-
-**Guide:** Mrs. Smitha S M, Department of Electronics & Communication Engineering
