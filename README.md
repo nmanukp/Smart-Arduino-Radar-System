@@ -195,25 +195,3 @@ This ensures the user is aware of detections even when they aren't looking at th
 
 ---
 
-## References
-
-- Gogoi, P., Barman, M., Deka, M., Rajkonwar, U., & Moudgollya, R. (2022). *Object Detection and Tracking Turret based on Cascade Classifiers and Single Shot Detectors.* 2022 International Conference on Computational Performance Evaluation (ComPE), pp. 792–796. IEEE.
-- Loo, K. L., Chong Keat Saw, & Ibrahim, M. H. (2022). *A Fast and Flexible Turret Based Automated Vision Inspection (AVI).* pp. 45–51. Springer Singapore.
-- Louali, R., Djilali Negadi, R., Hamadouche, R., & Nemra, A. (2022). *Design of a Vision-Based Autonomous Turret.* Journal of Automation, Mobile Robotics and Intelligent Systems, 72–77.
-- Karlson, M., Ban, H., Cole, D. G., Abdelhakim, M., & Forsythe, J. (2023). *Aiming Error Analysis of Controlled Turret System With AI Target Recognition.* International Journal of Control, Automation and Systems.
-
----
-
-## Team & Guidance
-
-**Mini Project — Visvesvaraya Technological University, Belagavi (2025–2026)**
-J N N College of Engineering, Shivamogga — Department of Electronics & Communication Engineering
-
-| USN | Name |
-|---|---|
-| 4JN23EC061 | Prajwal S |
-| 4JN23EC047 | Manojkumar N K |
-| 4JN23EC045 | Lekhan B G |
-| 4JN23EC034 | Jayachandran G |
-
-**Guide:** Mrs. Smitha S M, Department of Electronics & Communication Engineering
