@@ -136,11 +136,19 @@ This is the desktop companion to the Arduino firmware — a **Processing 3** ske
 
 ## Notifications (Blynk IoT)
 
-Whenever an object is detected within the threshold range, the ESP32 sends a structured alert (`RADAR ALERT` with Angle, Distance, and Time) through Blynk, which the user receives as:
-- An in-app push notification
-- An email notification with the same detection details
+Whenever an object is detected within the threshold range, the system sends a structured alert (`RADAR ALERT` with Angle, Distance, and Time) which the user receives as:
+- An **in-app push notification**, and a running **notification history** so past detection events (angle, distance, timestamp) can be reviewed later
+- An **email alert** with the same detection details, which also **saves a screenshot of the live radar screen to Google Drive** at the moment of detection and attaches that screenshot image directly to the email
 
-This ensures the user is aware of detections even when they aren't looking at the LCD or the radar screen.
+This ensures the user is aware of detections even when they aren't looking at the LCD or the radar screen, and every alert comes with a visual record of exactly what the radar saw.
+
+**In-app notification history (multiple detection events logged over time):**
+
+![Blynk app notification history](app_notification_history.jpg)
+
+**Email alert with attached radar screenshot + Google Drive save confirmation:**
+
+![Email alert with radar screenshot attached](email_alert_with_screenshot.jpg)
 
 ---
 
@@ -151,6 +159,7 @@ This ensures the user is aware of detections even when they aren't looking at th
 - Detections were relayed to the user in near real time via Blynk app and email notifications.
 - The Processing radar GUI updated live and in sync with the physical sweep, with smoothing (Kalman filter) removing sensor jitter from the display.
 - Continuous scanning, buzzer alerts, remote notifications, and the radar visualization all worked together without noticeable delay, demonstrating stable overall system performance.
+- Multiple detection events were logged consecutively (different angles and distances across separate test runs), confirming the alert pipeline holds up under repeated, back-to-back detections rather than just a single one-off test.
 
 ---
 
@@ -186,5 +195,25 @@ This ensures the user is aware of detections even when they aren't looking at th
 
 ---
 
+## References
 
+- Gogoi, P., Barman, M., Deka, M., Rajkonwar, U., & Moudgollya, R. (2022). *Object Detection and Tracking Turret based on Cascade Classifiers and Single Shot Detectors.* 2022 International Conference on Computational Performance Evaluation (ComPE), pp. 792–796. IEEE.
+- Loo, K. L., Chong Keat Saw, & Ibrahim, M. H. (2022). *A Fast and Flexible Turret Based Automated Vision Inspection (AVI).* pp. 45–51. Springer Singapore.
+- Louali, R., Djilali Negadi, R., Hamadouche, R., & Nemra, A. (2022). *Design of a Vision-Based Autonomous Turret.* Journal of Automation, Mobile Robotics and Intelligent Systems, 72–77.
+- Karlson, M., Ban, H., Cole, D. G., Abdelhakim, M., & Forsythe, J. (2023). *Aiming Error Analysis of Controlled Turret System With AI Target Recognition.* International Journal of Control, Automation and Systems.
 
+---
+
+## Team & Guidance
+
+**Mini Project — Visvesvaraya Technological University, Belagavi (2025–2026)**
+J N N College of Engineering, Shivamogga — Department of Electronics & Communication Engineering
+
+| USN | Name |
+|---|---|
+| 4JN23EC061 | Prajwal S |
+| 4JN23EC047 | Manojkumar N K |
+| 4JN23EC045 | Lekhan B G |
+| 4JN23EC034 | Jayachandran G |
+
+**Guide:** Mrs. Smitha S M, Department of Electronics & Communication Engineering
